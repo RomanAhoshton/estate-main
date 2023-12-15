@@ -1,4 +1,4 @@
-export const SIGN_UP="/"
+export const SIGN_UP="/estate-main/"
 export const SIGN_IN="/estate-main/sign-in"
 export const HOME='/estate-main/home'
 export const ABOUT_US="/estate-main/about-us"
