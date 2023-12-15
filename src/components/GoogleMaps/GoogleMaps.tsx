@@ -28,7 +28,7 @@ const GoogleMaps = () => {
     return <div>Loading maps</div>;
   }
 
-  console.log(GoogleMarker, "marker");
+
 
   return (
     <div className={styles.maps}>
