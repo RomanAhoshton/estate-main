@@ -1,0 +1,66 @@
+.slider {
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 30px;
+  padding: 20px;
+
+  box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.9);
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      @media (min-width: 1024px) {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+      font-size: 18px;
+      padding-bottom: 30px;
+    }
+    .avatar {
+      height: 70px;
+      width: 70px;
+      margin-bottom: 30px;
+      margin-top: 15px;
+    }
+
+    .avatarName {
+      margin-top: 15px;
+      min-height: 70px;
+      min-width: 70px;
+      border-radius: 50px;
+      background-color: #1daeff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.customIndicator {
+  background-color: inherit;
+  width: 12px;
+  height: 12px;
+  margin: 20px 5px 0;
+  border-radius: 50%;
+  border: 2px solid #2e7d32;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.customIndicator.selected {
+  background-color: #4caf50;
+}

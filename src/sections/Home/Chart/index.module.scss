@@ -1,0 +1,30 @@
+.chart {
+  margin-top: 135px;
+  @media (max-width:868px) {
+    margin-top: 65px;
+    
+  }
+
+  .chartText{
+    position: relative;
+    p {
+      @media (max-width: 868px) {
+          text-align: center;
+      }
+    }
+  }
+  .chartContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    @media (max-width: 868px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items:center;
+
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.banner {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #80b2df 0.11%,
+    rgba(128, 178, 223, 1) 99.89%
+  );
+
+  height: 300px;
+
+  .bannerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .textBlock {
+     
+
+      .title {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 10px;
+        @media (max-width: 768px) {
+          font-size: 36px;
+          text-align: center;
+          margin-top: 50px;
+   
+        }
+      }
+
+      .subtitle {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        max-width: 487px;
+        @media (max-width: 768px) {
+            text-align: center;
+            margin-top: 30px;
+        
+          }
+      }
+    }
+
+    .imageBlock {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}

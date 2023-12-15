@@ -1,0 +1,41 @@
+.footer {
+  padding-bottom: 30px;
+  padding-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: inherit;
+  color: inherit;
+  min-height: 308px;
+  .footerContainer {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px;
+    @media (max-width:868px) {
+        flex-direction: column-reverse;
+        gap: 60px;
+        
+        
+    }
+    @media (max-width:868px) {
+
+        gap: 40px;
+        
+        
+    }
+    @media (max-width:425px) {
+
+        gap: 20px;
+        
+        
+    }
+   
+  }
+
+ 
+}

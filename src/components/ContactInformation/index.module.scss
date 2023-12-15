@@ -1,0 +1,48 @@
+.place,
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  a,
+  span {
+    margin-left: 25px;
+    color: inherit;
+  }
+
+  a {
+    position: relative;
+    color: inherit;
+    &:hover {
+      color: inherit;
+    }
+
+    @media (min-width: 868px) {
+      font-size: 13px;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        bottom: -8px;
+        left: 0;
+        background-color: #1daeff;
+        transition: width 0.3s ease;
+      }
+      &:hover::before {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.info {
+ 
+
+  @media (max-width: 868px) {
+    margin-top: 60px;
+  }
+  @media (max-width: 425px) {
+    margin-top: 30px;
+  }
+}

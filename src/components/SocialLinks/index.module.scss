@@ -1,0 +1,16 @@
+.socialLinks {
+    display: flex;
+    margin-top: 34px;
+    @media (max-width:425px) {
+        margin-top: 0px;
+        
+    }
+    li {
+      margin: 28px;
+
+      a img:hover {
+        transition: 0.5s ease-in-out;
+        scale: 1.2;
+      }
+    }
+  }

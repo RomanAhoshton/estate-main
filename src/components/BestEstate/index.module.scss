@@ -1,0 +1,95 @@
+.bestEstate {
+  margin-top: 120px;
+  position: relative;
+
+  @media (max-width: 868px) {
+    margin-top: 60px;
+  }
+  @media (max-width: 425px) {
+    margin-top: 30px;
+  }
+
+
+  .estateContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .estateContent {
+      border-radius: 50px;
+      background: linear-gradient(180deg, #c3dfed 0%, #dff0f7 100%);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 400px;
+
+      @media (max-width: 868px) {
+        justify-content: center;
+        padding: 10px;
+      }
+
+      .imageBlock {
+        border-radius: 50px;
+        overflow: hidden;
+        max-height: 398px;
+        max-width: 50%;
+        @media (max-width: 868px) {
+          display: none;
+        }
+      }
+
+      img {
+        max-height: 100%;
+        min-width: 100%;
+      }
+
+      .textBlock {
+        padding: 85px 0px 85px 85px;
+        a{
+          color: white !important;;
+        }
+        button{
+          color: white !important;;
+        }
+        @media (max-width: 868px) {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items:center;
+          padding: 0px;
+        }
+
+        p{
+          @media (max-width: 868px) {
+            text-align: center;
+        
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
+.left{
+    position: absolute;
+    left: 0px;
+    top: -200px;
+    @media (max-width:1440px) {
+        display: none;
+        
+    }
+  
+  }
+  .right{
+    position: absolute;
+    right: 0px;
+    bottom: -200px;
+    @media (max-width:1440px) {
+        display: none;
+        
+    }
+  
+  }

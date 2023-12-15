@@ -1,0 +1,101 @@
+.signin {
+    background-size: cover;
+    background-position: bottom;
+    max-height: 100%;
+    min-height: 100vh;
+    width: 100%;
+  
+    .signContainer {
+      max-width: 400px;
+  
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      padding-top: 15%;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      .createTitle {
+        color: rgba(255, 255, 255, 0.87);
+        margin-top: 50px;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 30px;
+      }
+  
+      .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+  
+        input {
+          height: 54px;
+          flex-shrink: 0;
+          border-radius: 15px;
+          background: #fff;
+          border: none;
+          margin-bottom: 15px;
+          color: #8f90a6;
+          font-family: Montserrat;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23px;
+          padding-left: 20px;
+        }
+  
+        .forgotPassword {
+          color: #1daeff;
+          font-family: Montserrat;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 15px;
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          margin-bottom: 30px;
+        }
+        .createAccount {
+          border-radius: 14px;
+          border: 2px solid #1daeff;
+          width: 100%;
+          background: #1daeff;
+          height: 52px;
+          color: #fff;
+          font-family: Montserrat;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 36px; /* 225% */
+          letter-spacing: 3.2px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+  
+      .hasAccount {
+        margin-top: 22px;
+        color: #8f90a6;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+  
+        a {
+          color: #1daeff;
+          font-family: Montserrat;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,48 @@
+.crypto {
+  margin-top: 120px;
+  position: relative;
+
+  .left {
+    position: absolute;
+    left: 0px;
+    @media (max-width: 1440px) {
+      display: none;
+    }
+  }
+
+  .cryptoContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 868px) {
+      flex-direction: column;
+    }
+
+    .cryptoText {
+      p {
+        @media (max-width: 868px) {
+            text-align: center;
+        }
+      }
+    }
+
+    .cryptoImage {
+      max-width: 488px;
+      height: 270px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media (max-width: 768px) {
+        max-width: 350px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 615px;
+
+
+  .email {
+    outline: none;
+    height: 100%;
+    height: 34px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+
+    color: #8f90a6;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    background-color: inherit;
+  }
+
+  .fullName {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    &:first-child {
+      margin-right: 15px;
+    }
+    input {
+      max-width: 294px;
+      outline: none;
+      height: 100%;
+      height: 34px;
+      padding-left: 15px;
+      border-radius: 15px;
+      border: none;
+
+      color: #8f90a6;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px;
+      background-color: inherit;
+    }
+  }
+  textarea {
+    resize: none !important;
+    max-width: 500px;
+    background-color: inherit;
+    height: 200px;
+    border-radius: 15px;
+    outline: none;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    color: #8f90a6;
+  }
+
+  .send {
+    max-width: 234px;
+    max-height: 50px;
+    border-radius: 14px;
+    border: 2px solid #1daeff;
+    width: 100%;
+    background: #1daeff;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 225% */
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: auto;
+  }
+}

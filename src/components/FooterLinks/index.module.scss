@@ -1,0 +1,53 @@
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    span {
+      margin-bottom: 15px;
+      font-family: inherit;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 36px;
+    }
+
+    ul {
+      li {
+        margin-bottom: 10px;
+        a {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 52px;
+          font-family: inherit;
+          position: relative;
+          @media (min-width: 868px) {
+            font-size: 13px;
+            &::before {
+              content: "";
+              position: absolute;
+              width: 0%;
+              height: 2px;
+              bottom: -8px;
+              left: 0;
+              background-color: #1DAEFF;
+              transition: width 0.3s ease;
+            }
+            &:hover::before {
+              width: 100%;
+            }
+            
+          }
+        }
+      }
+      margin-right: 100px;
+      @media (max-width:425px) {
+        margin-right: 0px;
+        
+      }
+    }
+  }
+}

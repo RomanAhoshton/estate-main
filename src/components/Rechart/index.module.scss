@@ -1,0 +1,26 @@
+.customTooltip {
+
+  background-color: white;
+  width: 229px;
+  height: 103px;
+  border-radius: 20px;
+  padding: 20px;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  flex-direction: "column";
+  box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.83);
+  -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.83);
+  -moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.83);
+  span {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: black;
+    padding: 0px;
+    display: block;
+  }
+}
